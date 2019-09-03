@@ -4,7 +4,7 @@ presure_peak=30;
 
 % r=randn(200000,1);
 % r=r./max(abs(r));
-% p= presure_peak.*r; %la señal debe excursionar desde 20uPa hasta 20Pa
+% p= presure_peak.*r; %la seÃ±al debe excursionar desde 20uPa hasta 20Pa
 
 p=wgn(48000,1,10);
 %p=p.*hamming(length(p));
