@@ -1,18 +1,14 @@
 fs=48000;
 p0=20e-6;
-presure_peak=30;
 
-% r=randn(200000,1);
-% r=r./max(abs(r));
-% p= presure_peak.*r; %la señal debe excursionar desde 20uPa hasta 20Pa
 
-p=wgn(48000,1,10);
+p=wgn(10000000,1,10);
 %p=p.*hamming(length(p));
-p=p.*1600; %con esto llevo el valor de decimal a lo que seria resultado del conversor
-p=ceil(p);
+p=p.*1600000; %con esto llevo el valor de decimal a lo que seria resultado del conversor
+%p=ceil(p);
 
-pf = filter(numA , denA, p); % weighting
-%pf = filter(numC , denC, p); % weighting
+%pf = filter(numA , denA, p); % weighting
+pf = filter(numC , denC, p); % weighting
 
 pf2=pf.^2;
 
@@ -46,7 +42,7 @@ xlabel('Numero de muestras');
 ylabel('Magnitud [veces]');
 figure;
 plot(pft_sqrt);
-title('pft_sqrt');
+title('pft sqrt');
 xlabel('Numero de muestras');
 ylabel('Magnitud [veces]');
 figure;
