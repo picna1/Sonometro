@@ -1,0 +1,108 @@
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+# File: C:\Users\Emanuel-notebook\Desktop\FPGA proyecto final\2019-03-18\prototipo1\prototipo1_pin_assignment.csv
+# Generated on: Tue Mar 19 08:43:31 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+AUD_ADCDAT,Input,PIN_D2,1,B1_N0,PIN_D2,2.5 V,,,,,
+AUD_ADCLRCK,Output,PIN_C2,1,B1_N0,PIN_C2,2.5 V,,,,,
+AUD_BCLK,Output,PIN_F2,1,B1_N1,PIN_F2,2.5 V,,,,,
+AUD_DACDAT,Output,PIN_D1,1,B1_N0,PIN_D1,2.5 V,,,,,
+AUD_DACLRCK,Output,PIN_E3,1,B1_N0,PIN_E3,2.5 V,,,,,
+AUD_XCK,Output,PIN_E1,1,B1_N0,PIN_E1,2.5 V,,,,,
+clock_50,Input,PIN_Y2,2,B2_N0,PIN_Y2,2.5 V,,,,,
+display_7seg[41],Output,PIN_AD18,4,B4_N1,PIN_AD18,2.5 V,,,,,
+display_7seg[40],Output,PIN_AC18,4,B4_N1,PIN_AC18,2.5 V,,,,,
+display_7seg[39],Output,PIN_AB18,4,B4_N0,PIN_AB18,2.5 V,,,,,
+display_7seg[38],Output,PIN_AH19,4,B4_N2,PIN_AH19,2.5 V,,,,,
+display_7seg[37],Output,PIN_AG19,4,B4_N2,PIN_AG19,2.5 V,,,,,
+display_7seg[36],Output,PIN_AF18,4,B4_N1,PIN_AF18,2.5 V,,,,,
+display_7seg[35],Output,PIN_AH18,4,B4_N2,PIN_AH18,2.5 V,,,,,
+display_7seg[34],Output,PIN_AB19,4,B4_N0,PIN_AB19,2.5 V,,,,,
+display_7seg[33],Output,PIN_AA19,4,B4_N0,PIN_AA19,2.5 V,,,,,
+display_7seg[32],Output,PIN_AG21,4,B4_N2,PIN_AG21,2.5 V,,,,,
+display_7seg[31],Output,PIN_AH21,4,B4_N2,PIN_AH21,2.5 V,,,,,
+display_7seg[30],Output,PIN_AE19,4,B4_N1,PIN_AE19,2.5 V,,,,,
+display_7seg[29],Output,PIN_AF19,4,B4_N1,PIN_AF19,2.5 V,,,,,
+display_7seg[28],Output,PIN_AE18,4,B4_N2,PIN_AE18,2.5 V,,,,,
+display_7seg[27],Output,PIN_V21,5,B5_N1,PIN_V21,2.5 V,,,,,
+display_7seg[26],Output,PIN_U21,5,B5_N0,PIN_U21,2.5 V,,,,,
+display_7seg[25],Output,PIN_AB20,4,B4_N0,PIN_AB20,2.5 V,,,,,
+display_7seg[24],Output,PIN_AA21,4,B4_N0,PIN_AA21,2.5 V,,,,,
+display_7seg[23],Output,PIN_AD24,4,B4_N0,PIN_AD24,2.5 V,,,,,
+display_7seg[22],Output,PIN_AF23,4,B4_N0,PIN_AF23,2.5 V,,,,,
+display_7seg[21],Output,PIN_Y19,4,B4_N0,PIN_Y19,2.5 V,,,,,
+display_7seg[20],Output,PIN_AA25,5,B5_N1,PIN_AA25,2.5 V,,,,,
+display_7seg[19],Output,PIN_AA26,5,B5_N1,PIN_AA26,2.5 V,,,,,
+display_7seg[18],Output,PIN_Y25,5,B5_N1,PIN_Y25,2.5 V,,,,,
+display_7seg[17],Output,PIN_W26,5,B5_N1,PIN_W26,2.5 V,,,,,
+display_7seg[16],Output,PIN_Y26,5,B5_N1,PIN_Y26,2.5 V,,,,,
+display_7seg[15],Output,PIN_W27,5,B5_N1,PIN_W27,2.5 V,,,,,
+display_7seg[14],Output,PIN_W28,5,B5_N1,PIN_W28,2.5 V,,,,,
+display_7seg[13],Output,PIN_M24,6,B6_N2,PIN_M24,2.5 V,,,,,
+display_7seg[12],Output,PIN_Y22,5,B5_N0,PIN_Y22,2.5 V,,,,,
+display_7seg[11],Output,PIN_W21,5,B5_N1,PIN_W21,2.5 V,,,,,
+display_7seg[10],Output,PIN_W22,5,B5_N0,PIN_W22,2.5 V,,,,,
+display_7seg[9],Output,PIN_W25,5,B5_N1,PIN_W25,2.5 V,,,,,
+display_7seg[8],Output,PIN_U23,5,B5_N1,PIN_U23,2.5 V,,,,,
+display_7seg[7],Output,PIN_U24,5,B5_N0,PIN_U24,2.5 V,,,,,
+display_7seg[6],Output,PIN_G18,7,B7_N2,PIN_G18,2.5 V,,,,,
+display_7seg[5],Output,PIN_F22,7,B7_N0,PIN_F22,2.5 V,,,,,
+display_7seg[4],Output,PIN_E17,7,B7_N2,PIN_E17,2.5 V,,,,,
+display_7seg[3],Output,PIN_L26,6,B6_N1,PIN_L26,2.5 V,,,,,
+display_7seg[2],Output,PIN_L25,6,B6_N1,PIN_L25,2.5 V,,,,,
+display_7seg[1],Output,PIN_J22,6,B6_N0,PIN_J22,2.5 V,,,,,
+display_7seg[0],Output,PIN_H22,6,B6_N0,PIN_H22,2.5 V,,,,,
+FPGA_I2C_SCLK,Output,PIN_B7,8,B8_N1,PIN_B7,2.5 V,,,,,
+FPGA_I2C_SDAT,Bidir,PIN_A8,8,B8_N1,PIN_A8,2.5 V,,,,,
+key[3],Input,PIN_R24,5,B5_N0,PIN_R24,2.5 V,,,,,
+key[2],Input,PIN_N21,6,B6_N2,PIN_N21,2.5 V,,,,,
+key[1],Input,PIN_M21,6,B6_N1,PIN_M21,2.5 V,,,,,
+key[0],Input,PIN_M23,6,B6_N2,PIN_M23,2.5 V,,,,,
+ledg[7],Output,PIN_G21,7,B7_N1,PIN_G21,2.5 V,,,,,
+ledg[6],Output,PIN_G22,7,B7_N2,PIN_G22,2.5 V,,,,,
+ledg[5],Output,PIN_G20,7,B7_N1,PIN_G20,2.5 V,,,,,
+ledg[4],Output,PIN_H21,7,B7_N2,PIN_H21,2.5 V,,,,,
+ledg[3],Output,PIN_E24,7,B7_N1,PIN_E24,2.5 V,,,,,
+ledg[2],Output,PIN_E25,7,B7_N1,PIN_E25,2.5 V,,,,,
+ledg[1],Output,PIN_E22,7,B7_N0,PIN_E22,2.5 V,,,,,
+ledg[0],Output,PIN_E21,7,B7_N0,PIN_E21,2.5 V,,,,,
+ledr[10],Output,PIN_J15,7,B7_N2,PIN_J15,2.5 V,,,,,
+ledr[9],Output,PIN_G17,7,B7_N1,PIN_G17,2.5 V,,,,,
+ledr[8],Output,PIN_J17,7,B7_N2,PIN_J17,2.5 V,,,,,
+ledr[7],Output,PIN_H19,7,B7_N2,PIN_H19,2.5 V,,,,,
+ledr[6],Output,PIN_J19,7,B7_N2,PIN_J19,2.5 V,,,,,
+ledr[5],Output,PIN_E18,7,B7_N1,PIN_E18,2.5 V,,,,,
+ledr[4],Output,PIN_F18,7,B7_N1,PIN_F18,2.5 V,,,,,
+ledr[3],Output,PIN_F21,7,B7_N0,PIN_F21,2.5 V,,,,,
+ledr[2],Output,PIN_E19,7,B7_N0,PIN_E19,2.5 V,,,,,
+ledr[1],Output,PIN_F19,7,B7_N0,PIN_F19,2.5 V,,,,,
+ledr[0],Output,PIN_G19,7,B7_N2,PIN_G19,2.5 V,,,,,
+rx,Input,PIN_G12,8,B8_N1,PIN_G12,2.5 V,,,,,
+sw[9],Input,PIN_AB25,5,B5_N1,PIN_AB25,2.5 V,,,,,
+sw[8],Input,PIN_AC25,5,B5_N2,PIN_AC25,2.5 V,,,,,
+sw[7],Input,PIN_AB26,5,B5_N1,PIN_AB26,2.5 V,,,,,
+sw[6],Input,PIN_AD26,5,B5_N2,PIN_AD26,2.5 V,,,,,
+sw[5],Input,PIN_AC26,5,B5_N2,PIN_AC26,2.5 V,,,,,
+sw[4],Input,PIN_AB27,5,B5_N1,PIN_AB27,2.5 V,,,,,
+sw[3],Input,PIN_AD27,5,B5_N2,PIN_AD27,2.5 V,,,,,
+sw[2],Input,PIN_AC27,5,B5_N2,PIN_AC27,2.5 V,,,,,
+sw[1],Input,PIN_AC28,5,B5_N2,PIN_AC28,2.5 V,,,,,
+sw[0],Input,PIN_AB28,5,B5_N1,PIN_AB28,2.5 V,,,,,
+tx,Output,PIN_G9,8,B8_N2,PIN_G9,2.5 V,,,,,

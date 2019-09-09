@@ -1,0 +1,8 @@
+	component pll_cyclone4e is
+		port (
+			clk_clk       : in  std_logic := 'X'; -- clk
+			clock_12_clk  : out std_logic;        -- clk
+			reset_reset_n : in  std_logic := 'X'  -- reset_n
+		);
+	end component pll_cyclone4e;
+
